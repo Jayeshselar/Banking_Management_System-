@@ -8,6 +8,8 @@ public class Balance {
     private long accountNum;
     Scanner sc = new Scanner(System.in);
 
+    
+    
     public Balance(long accountNo, double money, Date accountDate) {
         accountNum = accountNo;
         balance = money;
@@ -27,6 +29,7 @@ public class Balance {
 
     }
 
+    
     public long getAccountNum() {
         return accountNum;
     }
@@ -37,6 +40,7 @@ public class Balance {
 
     public void setBalance(double balance) {
         this.balance = balance;
+    
     }
 
     public Date getDate() {
