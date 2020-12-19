@@ -7,8 +7,6 @@ public class Balance {
     private Date date;
     private long accountNum;
     Scanner sc = new Scanner(System.in);
-
-    
     
     public Balance(long accountNo, double money, Date accountDate) {
         accountNum = accountNo;
